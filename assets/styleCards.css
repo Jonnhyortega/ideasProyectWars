@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid gold; */
+  font-family: "Roboto", sans-serif;
+}
+
+#card {
+  margin-top: 1rem;
+  width: 30%;
+  max-height: 500px;
+  position: relative;
+  background: radial-gradient(#17aee0 50%, #096b94, #104e6a);
+  box-shadow: 1px 1px 5px 2px;
+  border-radius: 5px;
+}
+
+#imgPortada {
+  width: 100%;
+  max-height: 200px;
+}
+
+.spanOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+}
+
+#infoCard {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-rows: 2fr 1fr 1fr; */
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#infoCard > a {
+  text-decoration: none;
+  font-weight: 900;
+  color: white;
+  transition: .3s;
+}
+#infoCard > a:hover {
+  transition: .3s;
+  color: gold;
+  letter-spacing: 1px;
+}
+
+#mediumCard {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid white; */
+  border-radius: 6px;
+  gap: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.726);
+  box-shadow: 1px 1px 5px 1px black;
+}
+
+#imgMediumCard {
+  margin-top: 0.5rem;
+  width: 45%;
+  border-radius: 45%;
+  /* border: 2px solid rgba(0, 0, 0, 0.726); */
+}
+
+#mediumCard > p {
+  color: WHITE;
+}
+#mediumCard > p:nth-last-child(2) {
+  font-size: 1rem;
+  font-weight: 900;
+}
+#links {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#links > a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#links > a:hover {
+  color: gold;
+}
